@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: C:/Users/mtj02/runs/detect/default_training_run2/weights/best.pt
+model: yolov8s.pt
 data: config.yaml
 epochs: 50
 time: null
@@ -13,7 +13,7 @@ cache: false
 device: null
 workers: 8
 project: null
-name: tuned_model
+name: tuned_model3
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -103,4 +103,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\mtj02\runs\detect\tuned_model
+save_dir: C:\Users\mtj02\runs\detect\tuned_model3

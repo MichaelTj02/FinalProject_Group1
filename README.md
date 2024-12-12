@@ -7,6 +7,8 @@ Ryan Ng (301442370)
 
 The final pipeline is inside the jupyter notebook file named CombinedModel.ipynb
 
+To test the pipeline, we use the Motorcycle detection model dataset, which consists of all of the scenarios that may happen in the real world.
+
 The two models' best parameters can be found in the Best_LicensePlate/weights/best/pt and Best_Motorcycle/weights/best.pt respectively.
 
 The training notebook of each models can be found in the ModelTraining_Notebooks folder.
